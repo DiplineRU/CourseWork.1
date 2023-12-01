@@ -48,16 +48,16 @@ public class Main {
 
         public static void main (String[]args){
 
-            Employee[0] = new Employee("Иван", "Иванов", "Иванович", 30_000, 1);
-            Employee[1] = new Employee("Александр", "Александров", "Александрович", 45_000, 2);
-            Employee[2] = new Employee("Гулян", "Артем", "Сергеевич", 115_000, 3);
-            Employee[3] = new Employee("Петров", "Павел", "Павелович", 75_000, 4);
-            Employee[4] = new Employee("Питерова", "Мария", "Сергеевна", 63_000, 5);
-            Employee[5] = new Employee("Колопов", "Сергей", "Игоревич", 88_000, 1);
-            Employee[6] = new Employee("Чудинова", "Мария", "Сергеевна", 38_000, 3);
-            Employee[7] = new Employee("Елисеева", "Мария", "Олеговна", 59_000, 4);
-            Employee[8] = new Employee("Сафаров", "Константин", "Сергеевич", 73_000, 5);
-            Employee[9] = new Employee("Полугаров", "Владислав", "Игоревич", 120_000, 1);
+            Employee[0] = new Employee("Иван", "Иванов");
+            Employee[1] = new Employee("Александр", "Александров");
+            Employee[2] = new Employee("Гулян", "Артем");
+            Employee[3] = new Employee("Петров", "Павел");
+            Employee[4] = new Employee("Питерова", "Мария");
+            Employee[5] = new Employee("Колопов", "Сергей");
+            Employee[6] = new Employee("Чудинова", "Мария");
+            Employee[7] = new Employee("Елисеева", "Мария");
+            Employee[8] = new Employee("Сафаров", "Константин");
+            Employee[9] = new Employee("Полугаров", "Владислав");
 
             printInfoAboutEmployee();
             System.out.println("Сумма затрат на зарплаты в месяц.");

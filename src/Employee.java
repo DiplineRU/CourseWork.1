@@ -1,14 +1,14 @@
-public class Employee {
+public class Employee extends Throwable {
     private String name;
     private String surname;
     private int department;
-    final private String patronymic;
+    private String patronymic;
     private int salary;
     private static int count;
     private final int id;
 
 
-    public Employee( String name, String surname, String patronymic, int salary, int department) {
+    public Employee( String name, String surname) {
         this.name = name;
         this.surname = surname;
         this.patronymic = patronymic;
